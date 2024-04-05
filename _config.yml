@@ -3,7 +3,7 @@ title: Your Portfolio Name
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal portfolio where I showcase my projects, skills, and experiences.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g., /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Build settings
@@ -12,8 +12,13 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Navigation Bar
+header_pages:
+  - about.md
+  - projects.html
+  - blog/index.html
+
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list, if needed.
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -30,7 +35,7 @@ github:
   username:  yourgithubusername
   repository: yourgithubusername/yourgithubusername.github.io
 
-# Social links
+# Social links (assuming your theme supports this; otherwise, you'll need custom HTML)
 social_links:
   twitter: yourtwitterhandle
   github: yourgithubhandle
