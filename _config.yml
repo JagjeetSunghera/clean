@@ -1,0 +1,42 @@
+# Site settings
+title: Your Portfolio Name
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is my personal portfolio where I showcase my projects, skills, and experiences.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list, if needed.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
+
+# SEO Tag settings
+twitter:
+  username: yourusername
+github:
+  username:  yourgithubusername
+  repository: yourgithubusername/yourgithubusername.github.io
+
+# Social links
+social_links:
+  twitter: yourtwitterhandle
+  github: yourgithubhandle
+  linkedin: yourlinkedinprofile
+  medium: yourmediumprofile
+  instagram: yourinstagramhandle
+
+# Google Analytics (Optional)
+google_analytics: UA-XXXXX-Y
