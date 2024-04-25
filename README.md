@@ -1,2 +1,7 @@
-# JagjeetSunghera.github.io
- this i my portfolio
+------------------------------------
+layout: pages
+title: Application Development
+body:
+This is a sample text for the testing purposes only.
+
+------------------------------------
